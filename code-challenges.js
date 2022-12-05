@@ -35,14 +35,15 @@ const fruit4 = "kiwi"
 //     else if (temp === 212)
 //     return `${temp} is at boiling temperature`    
  //}
+ const temp1 = 42
  //console.log(tempCheck(42))
 // // Expected output: "42 is below boiling point"
 
-// const temp2 = 350
+ const temp2 = 350
 //console.log(tempCheck(350))
 // // Expected output: "350 is above boiling point"
 
-//const temp3 = 212
+ const temp3 = 212
  //console.log(tempCheck(212))
 // // Expected output: "212 is at boiling point"
 // if 
@@ -53,8 +54,8 @@ const fruit4 = "kiwi"
 // create a code that combines the arrays and returns the total index length
 // when combined it should log 9 total 
 
-// const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
-// const padres1998WorldSeriesRuns = [6, 3, 5, 3]
+const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
+const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // const totalRuns = (padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns))
 // console.log(totalRuns.length)
 
@@ -64,13 +65,15 @@ const fruit4 = "kiwi"
 
 // // Pseudo code:
 // create a code that will reverse the letters in the string
+// split the string into an array
+// reverse the array
 // when ran it should log "2202 letoH"
 
 const currentCohort = "Hotel 2022"
-var splitCohort = (currentCohort.split(""))
-var reveresedCohort = (splitCohort.reverse())
-console.log(reveresedCohort)
-// // Expected output: "2202 letoH"
+// var splitCohort = (currentCohort.split(""))
+// var reveresedCohort = (splitCohort.reverse())
+// console.log(reveresedCohort)
+// // // Expected output: "2202 letoH"
 
 // // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
@@ -79,7 +82,7 @@ console.log(reveresedCohort)
 // when ran it should log 7 for the 1st given value
 // when ran it should log 8 for the 2nd given value
 
-// const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
+// myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
 // const givenValue1 = 42
 // console.log(myNumbers.lastIndexOf(givenValue1))
 // // // Expected output: 7
@@ -94,12 +97,12 @@ console.log(reveresedCohort)
 // create a code that will sort all the number from largest to smallest
 // using a descending sorting method create a renamed sorted set of temperatures
 //when ran it should log the numbers in order from greatest to smallest
-// const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
+ const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
 // // // Expected output: [82, 80, 79, 77, 76, 73, 72]
 // const sortedSummer = (sanDiegoSummerTemperatures.sort((a,b)=>b-a))
 
 // console.log(sortedSummer)
-// const sanDiegoWinterTemperatures = [59, 68, 62, 59, 66, 67, 66]
+ const sanDiegoWinterTemperatures = [59, 68, 62, 59, 66, 67, 66]
 // const sortedWinter = (sanDiegoWinterTemperatures.sort((a,b)=>b-a))
 // // // Expected output: [68, 67, 66, 66, 62, 59, 59]
 // console.log(sortedWinter)
